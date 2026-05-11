@@ -16,3 +16,17 @@ This project investigates the predictive modeling of vehicle fuel efficiency (MP
    - Baseline: Linear Regression.
    - Non-linear: Polynomial Regression and Random Forest Ensembles.
    - Regularized: Ridge, Lasso, and Elastic Net to handle feature multicollinearity.
+4. **Evaluation**: Benchmarking performance using Mean Squared Error (MSE) and $R^2$.
+
+## Model Benchmarking & Results
+After training the models on the 398 vehicle instances, the following performance metrics were observed:
+
+| Model | MSE | R² Score | Notes |
+| :--- | :--- | :--- | :--- |
+| Baseline Linear Regression | [Value] | [Value] | Established performance benchmark. |
+| Polynomial Regression | [Value] | [Value] | Captured non-linear weight-to-MPG curves. |
+| Ridge/Lasso Regularization | [Value] | [Value] | Addressed feature multicollinearity. |
+| Random Forest Ensemble | [Value] | [Value] | Best at handling multidimensional interactions. |
+
+### Final Conclusion
+The [Model Name] provided the highest predictive accuracy, demonstrating that [mention a specific insight, e.g., non-linear architectures are better suited for automotive efficiency data].
