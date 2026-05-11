@@ -3,6 +3,13 @@
 ## Project Objective
 This project investigates the predictive modeling of vehicle fuel efficiency (MPG) using physical engineering attributes . The goal is to compare a baseline linear model against advanced non-linear architectures and regularized techniques.
 
+## 📊 Dataset Information
+The dataset used in this project is the **Auto MPG** dataset, which concerns city-cycle fuel consumption. 
+
+- **Official Source**: [UCI Machine Learning Repository - Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+- **Origin**: Modified from the StatLib library at Carnegie Mellon University [Quinlan, 1993].
+- **License**: Creative Commons Attribution 4.0 International (CC BY 4.0).
+
 ## Dataset Overview
 - **Source**: UCI Machine Learning Repository (Auto MPG Dataset).
 - **Instances**: 398 vehicle entries.
@@ -30,3 +37,5 @@ After training the models on the 398 vehicle instances, the following performanc
 
 ### Final Conclusion
 The [Model Name] provided the highest predictive accuracy, demonstrating that [mention a specific insight, e.g., non-linear architectures are better suited for automotive efficiency data].
+
+
