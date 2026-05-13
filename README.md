@@ -30,7 +30,7 @@ After training the models on the 398 vehicle instances, the following performanc
 
 | Model | MSE | R² Score | Notes |
 | :--- | :--- | :--- | :--- |
-| Baseline Linear Regression | [Value] | [Value] | Established performance benchmark. |
+| Baseline Linear Regression | [8.34] | [0.84] | Established performance benchmark. |
 | Polynomial Regression | [Value] | [Value] | Captured non-linear weight-to-MPG curves. |
 | Ridge/Lasso Regularization | [Value] | [Value] | Addressed feature multicollinearity. |
 | Random Forest Ensemble | [Value] | [Value] | Best at handling multidimensional interactions. |
