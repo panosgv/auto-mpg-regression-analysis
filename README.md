@@ -30,10 +30,12 @@ After training the models on the 398 vehicle instances, the following performanc
 
 | Model | MSE | R² Score | Notes |
 | :--- | :--- | :--- | :--- |
-| Baseline Linear Regression | [8.34] | [0.84] | Established performance benchmark. |
-| Polynomial Regression | [Value] | [Value] | Captured non-linear weight-to-MPG curves. |
-| Ridge/Lasso Regularization | [Value] | [Value] | Addressed feature multicollinearity. |
-| Random Forest Ensemble | [Value] | [Value] | Best at handling multidimensional interactions. |
+| **Baseline Linear Regression** | 8.34 | 0.84 | Established the primary performance benchmark. |
+| **Polynomial Regression (Deg 2)** | 5.67 | 0.89 | Captured the non-linear weight-to-MPG curves identified in EDA. |
+| **Ridge Regression (L2)** | 8.34 | 0.84 | Addressed high feature multicollinearity (e.g., Weight/Displacement). |
+| **Lasso Regression (L1)** | 8.49 | 0.84 | Performed automated feature selection by shrinking coefficients. |
+| **Support Vector Regressor (SVR)** | TBD | TBD | Pending evaluation of distance-based non-linear modeling. |
+| **Random Forest Ensemble** | TBD | TBD | Pending evaluation of complex multidimensional interactions. |
 
 ### Final Conclusion
 The [Model Name] provided the highest predictive accuracy, demonstrating that [mention a specific insight, e.g., non-linear architectures are better suited for automotive efficiency data].
