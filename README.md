@@ -40,6 +40,8 @@ Models are ranked below by their cross-validated R² scores:
 | **Baseline Linear Regression** | 0.80 (± 0.03) | 12.07 (± 2.59) |
 
 ## Final Conclusion
-The benchmarking results indicate that non-linear architectures perform consistently better than linear baselines on this dataset. The Random Forest Ensemble and Polynomial Regression (Degree 2) achieved the highest predictive accuracy, both reaching an R² of 0.85. 
+The benchmarking results indicate that non-linear architectures perform consistently better than linear baselines on this dataset. The Random Forest Ensemble and Polynomial Regression (Degree 2) achieved the highest predictive accuracy, both reaching an R² of 0.85.
 
 While the Polynomial Regression and Random Forest models showed similar R² performance, the Polynomial Regression exhibited lower standard deviation in its MSE (1.73), suggesting higher stability across different data folds. The linear models (Baseline, Ridge, and Lasso) all performed near-identically, confirming that while a linear relationship exists, capturing non-linear interactions is essential for maximizing predictive performance on this specific feature set.
+
+An additional observation emerged during the evaluation process regarding the influence of the train-test split selection. The initial split performed using a random state of 42 produced slightly optimistic results compared to the final cross-validation metrics, indicating that this partition represented a comparatively favorable distribution of the dataset. To further investigate this behavior, an additional implementation cell was included using a random state of 72, which generated results substantially closer to the cross-validation performance. This observation further supports the use of cross-validation as a more reliable and representative framework for evaluating model generalization.
